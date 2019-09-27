@@ -12,11 +12,18 @@
 //
 
 //= require jquery3
+//= require turbolinks
 //= require popper
 
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
 //= require_tree .
 
+//= require moment
 //= require bootstrap-sprockets
+//= require tempusdominus-bootstrap-4
+//= require bootstrap-daterangepicker
+//= require 'icheck'
+//= require adminlte
+
+//= require icheck.init

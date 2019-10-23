@@ -24,6 +24,7 @@
 //= require tempusdominus-bootstrap-4
 //= require bootstrap-daterangepicker
 //= require 'icheck'
-//= require adminlte
+//= require bootstrap.min
+//= require admin-lte
 
 //= require icheck.init

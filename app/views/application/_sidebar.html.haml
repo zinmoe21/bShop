@@ -1,0 +1,216 @@
+%aside.main-sidebar.sidebar-dark-primary.elevation-4
+  / Brand Logo
+  %a.brand-link{:href => "index3.html"}
+    %img.brand-image.img-circle.elevation-3{:alt => "AdminLTE Logo", :src => "dist/img/AdminLTELogo.png", :style => "opacity: .8"}/
+    %span.brand-text.font-weight-light AdminLTE 3
+  / Sidebar
+  .sidebar
+    / Sidebar user panel (optional)
+    .user-panel.mt-3.pb-3.mb-3.d-flex
+      .image
+        %img.img-circle.elevation-2{:alt => "User Image", :src => "dist/img/user2-160x160.jpg"}/
+      .info
+        %a.d-block{:href => "#"} Alexander Pierce
+    / Sidebar Menu
+    %nav.mt-2
+      %ul.nav.nav-pills.nav-sidebar.flex-column{"data-accordion" => "false", "data-widget" => "treeview", :role => "menu"}
+        /
+          Add icons to the links using the .nav-icon class
+          with font-awesome or any other icon font library
+        %li.nav-item.has-treeview.menu-open
+          %a.nav-link.active{:href => "#"}
+            %i.nav-icon.fa.fa-dashboard
+            %p
+              Dashboard
+              %i.right.fa.fa-angle-left
+          %ul.nav.nav-treeview
+            %li.nav-item
+              %a.nav-link{:href => "./index.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Dashboard v1
+            %li.nav-item
+              %a.nav-link.active{:href => "./index2.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Dashboard v2
+            %li.nav-item
+              %a.nav-link{:href => "./index3.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Dashboard v3
+        %li.nav-item
+          %a.nav-link{:href => "pages/widgets.html"}
+            %i.nav-icon.fa.fa-th
+            %p
+              Widgets
+              %span.right.badge.badge-danger New
+        %li.nav-item.has-treeview
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-pie-chart
+            %p
+              Charts
+              %i.right.fa.fa-angle-left
+          %ul.nav.nav-treeview
+            %li.nav-item
+              %a.nav-link{:href => "pages/charts/chartjs.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p ChartJS
+            %li.nav-item
+              %a.nav-link{:href => "pages/charts/flot.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Flot
+            %li.nav-item
+              %a.nav-link{:href => "pages/charts/inline.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Inline
+        %li.nav-item.has-treeview
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-tree
+            %p
+              UI Elements
+              %i.fa.fa-angle-left.right
+          %ul.nav.nav-treeview
+            %li.nav-item
+              %a.nav-link{:href => "pages/UI/general.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p General
+            %li.nav-item
+              %a.nav-link{:href => "pages/UI/icons.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Icons
+            %li.nav-item
+              %a.nav-link{:href => "pages/UI/buttons.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Buttons
+            %li.nav-item
+              %a.nav-link{:href => "pages/UI/sliders.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Sliders
+        %li.nav-item.has-treeview
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-edit
+            %p
+              Forms
+              %i.fa.fa-angle-left.right
+          %ul.nav.nav-treeview
+            %li.nav-item
+              %a.nav-link{:href => "pages/forms/general.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p General Elements
+            %li.nav-item
+              %a.nav-link{:href => "pages/forms/advanced.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Advanced Elements
+            %li.nav-item
+              %a.nav-link{:href => "pages/forms/editors.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Editors
+        %li.nav-item.has-treeview
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-table
+            %p
+              Tables
+              %i.fa.fa-angle-left.right
+          %ul.nav.nav-treeview
+            %li.nav-item
+              %a.nav-link{:href => "pages/tables/simple.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Simple Tables
+            %li.nav-item
+              %a.nav-link{:href => "pages/tables/data.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Data Tables
+        %li.nav-header EXAMPLES
+        %li.nav-item
+          %a.nav-link{:href => "pages/calendar.html"}
+            %i.nav-icon.fa.fa-calendar
+            %p
+              Calendar
+              %span.badge.badge-info.right 2
+        %li.nav-item.has-treeview
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-envelope-o
+            %p
+              Mailbox
+              %i.fa.fa-angle-left.right
+          %ul.nav.nav-treeview
+            %li.nav-item
+              %a.nav-link{:href => "pages/mailbox/mailbox.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Inbox
+            %li.nav-item
+              %a.nav-link{:href => "pages/mailbox/compose.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Compose
+            %li.nav-item
+              %a.nav-link{:href => "pages/mailbox/read-mail.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Read
+        %li.nav-item.has-treeview
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-book
+            %p
+              Pages
+              %i.fa.fa-angle-left.right
+          %ul.nav.nav-treeview
+            %li.nav-item
+              %a.nav-link{:href => "pages/examples/invoice.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Invoice
+            %li.nav-item
+              %a.nav-link{:href => "pages/examples/profile.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Profile
+            %li.nav-item
+              %a.nav-link{:href => "pages/examples/login.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Login
+            %li.nav-item
+              %a.nav-link{:href => "pages/examples/register.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Register
+            %li.nav-item
+              %a.nav-link{:href => "pages/examples/lockscreen.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Lockscreen
+        %li.nav-item.has-treeview
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-plus-square-o
+            %p
+              Extras
+              %i.fa.fa-angle-left.right
+          %ul.nav.nav-treeview
+            %li.nav-item
+              %a.nav-link{:href => "pages/examples/404.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Error 404
+            %li.nav-item
+              %a.nav-link{:href => "pages/examples/500.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Error 500
+            %li.nav-item
+              %a.nav-link{:href => "pages/examples/blank.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Blank Page
+            %li.nav-item
+              %a.nav-link{:href => "starter.html"}
+                %i.fa.fa-circle-o.nav-icon
+                %p Starter Page
+        %li.nav-header MISCELLANEOUS
+        %li.nav-item
+          %a.nav-link{:href => "https://adminlte.io/docs"}
+            %i.nav-icon.fa.fa-file
+            %p Documentation
+        %li.nav-header LABELS
+        %li.nav-item
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-circle-o.text-danger
+            %p.text Important
+        %li.nav-item
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-circle-o.text-warning
+            %p Warning
+        %li.nav-item
+          %a.nav-link{:href => "#"}
+            %i.nav-icon.fa.fa-circle-o.text-info
+            %p Informational
+    / /.sidebar-menu
+  / /.sidebar

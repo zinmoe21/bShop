@@ -7,5 +7,13 @@
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-  %body{class: "#{controller_name}-contoller #{action_name}-action"}
-    = yield
+  %body.hold-transition.sidebar-mini{class: "#{controller_name}-contoller #{action_name}-action"}
+    .wrapper
+      = render 'header'
+
+      = render 'sidebar'
+
+      .content-wrapper
+        = yield
+
+      = render 'footer'

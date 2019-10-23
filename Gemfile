@@ -38,6 +38,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.3.1'
 gem 'devise'
 gem 'dotenv-rails'
+gem 'adminlte-rails'
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'icheck-rails'
@@ -49,6 +50,8 @@ gem "cocoon"
 gem 'momentjs-rails'
 gem 'bootstrap-daterangepicker-rails'
 gem 'bootstrap4-datetime-picker-rails'
+gem "font-awesome-rails"
+gem 'ionicons-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

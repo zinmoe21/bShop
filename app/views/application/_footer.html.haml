@@ -1,0 +1,11 @@
+%footer.main-footer
+  / To the right
+  .float-right.d-sm-none.d-md-block
+    
+  / Default to the left
+  %strong
+    Copyright © 
+    = Time.zone.today.year
+    = succeed "." do
+      %a{:href => "http://zinmoe.me", target: '_blank'} bShop
+  All rights reserved.
